@@ -50,6 +50,7 @@ function App() {
       <h1>SCHFIFTYFIVECOIN</h1>
 
       <div className="links">
+        {/* eslint-disable-next-line */}
         <a href="#" onClick={getTotalSupply}>ow shmany exisht?</a>
         <a href={"https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=" + sfcAddress}>get shwam</a>
       </div>
