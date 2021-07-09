@@ -52,7 +52,10 @@ function App() {
       <div className="links">
         {/* eslint-disable-next-line */}
         <a href="#" onClick={getTotalSupply}>ow shmany exisht?</a>
-        <a href={"https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=" + sfcAddress}>get shwam</a>
+        <a href={"https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=" + sfcAddress}>
+          get shwam
+          <span className="alert">Will create liquidity pool once gas fees drop</span>
+        </a>
       </div>
       <div className="video">
       <iframe

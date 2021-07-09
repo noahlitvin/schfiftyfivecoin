@@ -34,6 +34,9 @@ a {
 a:hover {
   color:  red;
 }
+a:hover .alert {
+  display: block;
+}
 
 .video {
   background:  black;
@@ -50,6 +53,20 @@ a:hover {
   top: 15px;
   right:  0px;
   color:  rgba(0,0,0,0.5);
+}
+
+.alert {
+  display: none;
+  position: fixed;
+  top:  50%;
+  left:  50%;
+  transform:  translate(-50%, -50%);
+  font-family:"Arial Black", sans-serif;
+  color:  red;
+  background:  white;
+  padding:  20px;
+  font-size: 75%;
+  font-weight: 900;
 }
 
 @media (min-width: 1024px){
